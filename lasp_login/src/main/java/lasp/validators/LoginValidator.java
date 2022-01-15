@@ -8,6 +8,7 @@ import lasp.model.User;
 import lasp.service.UserService;
 import lasp.utility.Login;
 
+@Configuration
 public class LoginValidator implements Validator {
 	
 	@Autowired

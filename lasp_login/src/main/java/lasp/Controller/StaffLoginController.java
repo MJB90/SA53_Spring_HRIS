@@ -54,8 +54,8 @@ public class StaffLoginController {
 		currUser.setEmail(login.getEmail());
 		currUser.setPassword(login.getPassword());
 		currUser = uservice.findUserByEmail(currUser.getEmail());
-		List<Role> 
-		session.setAttribute("role", currUser.getRole());
+//		List<Role>
+//		session.setAttribute("role", currUser.getRole());
 		session.setAttribute("id", currUser.getId());
 		session.setAttribute("Firstname", currUser.getFirstName());
 		session.setAttribute("Lasttname", currUser.getLastName());
